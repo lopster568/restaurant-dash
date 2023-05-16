@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+    grid-column: 1/4;
+    height: 100vh;
+    padding: 10%;
+    background-color: #2ca062;
+    display: flex;
+    color: #f9f9f9;
+    flex-direction: column;
+    border-top-right-radius: 50px 50px;
+}
+
+.sidebar-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+}
+
+.btn-tile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto 10px auto;
+    font-size: 18px;
+}
+
+.user{
+    margin-top: 20px;
+}
+
+.user-desc{
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+.user-img{
+    margin: auto;
+}
+
+.active{
+    background-color: #f9f9f9;
+    color: #2ca062;
+}
+
+.branding{
+    margin: auto;
+    justify-self: center;
+}
+
+.content{
+    grid-column: 4/7;
+    padding: 2%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar{
+    border-radius: 15px;
+    background-color: rgb(44,160,98, 0.1);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(0,0,0, 0.4);
+}
+
+.searchbar-icon{
+    width: 25px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(44,160,98, 0.2);
+}
+
+.nav-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card-area{
+    padding: 10px 5% 10px 5%;
+}
+
+.card-area-heading{
+    font-size: 22px;
+}
+
+.card-list{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+}
+
+.card-img{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card{
+    border: 1px solid;
+    border-color: rgba(220, 220, 220, 0.8);
+    border-radius: 20px;
+}
+
+.card-body{
+    padding: 2px 8% 2px 8%;
+    line-height: 8px;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-subtitle{
+    color: grey;
+}
+
+.rating{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.card-img-big{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.rating-icon{
+    height: 20px;
+    width: 20px;
+}
